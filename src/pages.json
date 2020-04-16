@@ -1,0 +1,34 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/startup/index",
+			"style": {}
+		},
+    {
+			"path": "pages/home/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#118aff",
+		"navigationBarTitleText": "COTODO",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "单页调试", //模式名称
+			"path": "pages/startup/index", //启动页面
+			"query": "" //启动参数
+		}]
+	}
+
+}
