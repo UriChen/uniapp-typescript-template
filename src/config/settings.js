@@ -1,13 +1,13 @@
 const IS_PROD = process.env.NODE_ENV === 'production'
 
-const APP_NAME = 'cotodo-devices2'
+const APP_NAME = 'uniapp-typescript-template'
 const VERSION = '1.0.0'
 
-const MAP_API = 'https://apis.map.qq.com/ws/geocoder/v1'
-const WS_URL = 'wxs://pangu.cotodo.com/mqtt'
-const LOCAL_DEVICES_KEY = 'cotodo-devices2-v1.0.0'
-const QQ_MAP_KEY = 'QMFBZ-SGU63-NHE3F-37XE3-GCDWV-PXFAL'
-const QQ_MAP_SECRET_KEY = 'XBT74o95eHAqoU7Cj2YUIvkyipVk91TM'
+const MAP_API = ''
+const WS_URL = ''
+const LOCAL_DEVICES_KEY = ''
+const QQ_MAP_KEY = ''
+const QQ_MAP_SECRET_KEY = ''
 
 const HTTPS = true
 
